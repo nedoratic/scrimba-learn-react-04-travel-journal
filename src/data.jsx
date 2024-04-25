@@ -59,4 +59,4 @@ let destinations = [
 	},
 ];
 
-export default data;
+export default destinations;
