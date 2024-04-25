@@ -118,3 +118,45 @@
 	color: #585858;
 	text-align: justify;
 }
+
+/* For screens smaller than 1000px */
+@media (max-width: 1000px) {
+	.card {
+		width: 90%;
+		height: auto;
+	}
+
+	.card__image {
+		margin-bottom: 1rem;
+	}
+
+	.card__content {
+		width: auto;
+		height: auto;
+	}
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+	.card {
+		width: 100%;
+		height: auto;
+		flex-direction: column;
+	}
+
+	.card__image {
+		width: 100%;
+		height: auto;
+		margin-bottom: 1rem;
+	}
+
+	.card__content {
+		width: 100%;
+		height: auto;
+		margin: 0;
+	}
+
+	.card__location {
+		justify-content: flex-start;
+	}
+}
