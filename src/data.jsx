@@ -58,3 +58,5 @@ let destinations = [
 		description: 'The Church of the Holy Sepulchre, located in Jerusalem, is one of the most revered sites in Christianity. It is believed to encompass both the site of the crucifixion and the tomb of Jesus Christ. This ancient church, with its rich history and diverse architectural styles, draws pilgrims and visitors from around the world. Its significance lies not only in its religious importance but also in its status as a symbol of cultural and historical heritage.',
 	},
 ];
+
+export default data;
