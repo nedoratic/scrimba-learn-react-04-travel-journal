@@ -7,7 +7,7 @@ const Navbar = () => {
 				<li className='navbar__nav-item'>
 					<img className='navbar__nav-item-logo' src={Logo} alt='Logo' />
 					<a className='navbar__nav-item-link' href='#'>
-						Travel Journal
+						My travel journal
 					</a>
 				</li>
 			</ul>
